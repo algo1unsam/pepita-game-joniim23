@@ -7,3 +7,8 @@ object alpiste {
 	const property imagen = "alpiste.png"
 	method energia() = 5
 }
+
+object ninguna
+{
+	method energia() = 0
+}
