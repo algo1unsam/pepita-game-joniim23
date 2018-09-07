@@ -32,4 +32,11 @@
 		<nature>org.eclipse.xtext.ui.shared.xtextNature</nature>
 		<nature>org.uqbar.project.wollok.wollokNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>assets/roque.png</name>
+			<type>1</type>
+			<location>/media/hjtmansi/Joniim23/UNSAM/Año 2/Algoritmos I/Project5.pepita-game/Project5.pepita-game-joniim23/roque.png</location>
+		</link>
+	</linkedResources>
 </projectDescription>
