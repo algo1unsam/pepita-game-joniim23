@@ -17,13 +17,22 @@ program PepitaGame {
 	game.addVisualIn(manzana, game.at(5,1))
 	game.addVisual(buenosAires)
 	game.addVisual(villaGesell)
-	game.addVisualCharacter(pepita)
+	// TODO pepita hay que agrerlo como visual
+	// sino se movería junto con roque y on queremos eso
+	//game.addVisualCharacter(pepita)
+	game.addVisual(pepita)
 	game.addVisualCharacter(roque)
 
 //	TECLADO
 	keyboard.v().onPressDo { pepita.volaHacia(villaGesell) }
 	keyboard.b().onPressDo { pepita.volaHacia(buenosAires) }
 		
+	// TODO implementar el método collide	
+		
 //	START
 	game.start()
+	
+	// TODO A mi el programa me corre con errores, no me anda bien
+	// a vos te pasa lo mismo? vos lo pudiste correr bien?
+	// si la respuesta es si, no olvides consultar siempre así que te damos una mano!! 
 }
